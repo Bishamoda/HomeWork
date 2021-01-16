@@ -1,0 +1,7 @@
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\bin\Debug\Lesson3.exe.config
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\bin\Debug\Lesson3.exe
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\bin\Debug\Lesson3.pdb
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\obj\Debug\Lesson3.csprojAssemblyReference.cache
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\obj\Debug\Lesson3.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\obj\Debug\Lesson3.exe
+C:\Users\Mike\Desktop\Лекции С# для начинающих\Лекция 3\Lesson3\obj\Debug\Lesson3.pdb
