@@ -1,0 +1,13 @@
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.exe
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.deps.json
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.runtimeconfig.json
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.runtimeconfig.dev.json
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.dll
+D:\C# HomeWork\HW1\HW3\Справочник\bin\Debug\netcoreapp3.1\Справочник.pdb
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.csprojAssemblyReference.cache
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.AssemblyInfoInputs.cache
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.AssemblyInfo.cs
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.csproj.CoreCompileInputs.cache
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.dll
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.pdb
+D:\C# HomeWork\HW1\HW3\Справочник\obj\Debug\netcoreapp3.1\Справочник.genruntimeconfig.cache

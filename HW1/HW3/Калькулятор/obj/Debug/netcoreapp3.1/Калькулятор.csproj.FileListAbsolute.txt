@@ -1,0 +1,13 @@
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.exe
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.deps.json
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.runtimeconfig.json
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.runtimeconfig.dev.json
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.dll
+D:\C# HomeWork\HW1\HW3\Калькулятор\bin\Debug\netcoreapp3.1\Калькулятор.pdb
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.csprojAssemblyReference.cache
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.AssemblyInfoInputs.cache
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.AssemblyInfo.cs
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.csproj.CoreCompileInputs.cache
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.dll
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.pdb
+D:\C# HomeWork\HW1\HW3\Калькулятор\obj\Debug\netcoreapp3.1\Калькулятор.genruntimeconfig.cache
