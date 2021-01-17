@@ -13,35 +13,35 @@ namespace HW2
             Console.OutputEncoding = Encoding.UTF8;
 
             Console.WriteLine("Сейчас будут целые числа");
-            byte BytePer1 = 255;
-            Console.WriteLine("Это переменная типа байт - от 0 до 255: {0}", BytePer1);
+            byte bytePer1 = 255;
+            Console.WriteLine("Это переменная типа байт - от 0 до 255: {0}", bytePer1);
 
-            short ShortPer1 = 100;
-            Console.WriteLine("Короткое число: {0}", ShortPer1);
+            short shortPer1 = 100;
+            Console.WriteLine("Короткое число: {0}", shortPer1);
 
-            int IntPer1 = 20000;
-            Console.WriteLine("Это целое число: {0}", IntPer1);
+            int intPer1 = 20000;
+            Console.WriteLine("Это целое число: {0}", intPer1);
 
-            long LongPer1 = 10000000000;
-            Console.WriteLine("Это длинное число: {0}\n", LongPer1);
+            long longPer1 = 10000000000;
+            Console.WriteLine("Это длинное число: {0}\n", longPer1);
 
 
             Console.WriteLine("А теперь числа с плавающей запятой");
-            float FloatPer1 = 2.1F;
-            Console.WriteLine("Это число с плавающей запятой одиночной точности: {0}", FloatPer1);
+            float floatPer1 = 2.1F;
+            Console.WriteLine("Это число с плавающей запятой одиночной точности: {0}", floatPer1);
 
-            double DoublePer1 = 10.10202001;
-            Console.WriteLine("Это число с плавающей запятой двойной точности: {0}", DoublePer1);
+            double doublePer1 = 10.10202001;
+            Console.WriteLine("Это число с плавающей запятой двойной точности: {0}", doublePer1);
 
-            decimal DecimalPer1 = 1000.10299991391M;
-            Console.WriteLine("Оень точное число, для точных вычислений: {0}\n", DecimalPer1);
+            decimal decimalPer1 = 1000.10299991391M;
+            Console.WriteLine("Оень точное число, для точных вычислений: {0}\n", decimalPer1);
 
             Console.WriteLine("А как же текст?");
-            Char CharPer1 = 'M';
-            string StringPer1 = "А тут уже целый текст :)";
+            Char charPer1 = 'M';
+            string stringPer1 = "А тут уже целый текст :)";
 
-            Console.WriteLine("Вот это символ: {0}", CharPer1);
-            Console.WriteLine("Вот это строка: {0}\n", StringPer1);
+            Console.WriteLine("Вот это символ: {0}", charPer1);
+            Console.WriteLine("Вот это строка: {0}\n", stringPer1);
 
 
 
