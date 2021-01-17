@@ -67,7 +67,6 @@ namespace Калькулятор
                             break;
                     }
 
-
                 }
                 else
                 {
