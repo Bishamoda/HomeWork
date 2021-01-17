@@ -9,11 +9,9 @@ namespace Калькулятор
             string number1;
             string number2;
             string operation;
-            double a;
-            double b;
             double c;
-            bool succes1 = false;
-            bool succes2 = false;
+            bool succes1;
+            bool succes2;
 
 
             do
@@ -24,8 +22,8 @@ namespace Калькулятор
                 number2 = Console.ReadLine();
                 
 
-                succes1 = double.TryParse(number1, out a);
-                succes2 = double.TryParse(number2, out b);
+                succes1 = double.TryParse(number1, out double a);
+                succes2 = double.TryParse(number2, out double b);
 
                 if ((succes1 && succes2) == true)
                 {

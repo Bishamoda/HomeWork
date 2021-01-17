@@ -7,7 +7,7 @@ namespace Справочник
         static void Main(string[] args)
         {
             string ages;
-            bool result = false;
+            bool result;
 
             string[] names = new string[8];
             names[0] = "Mihail ";
