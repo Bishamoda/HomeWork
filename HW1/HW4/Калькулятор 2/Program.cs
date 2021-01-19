@@ -8,10 +8,16 @@ namespace Калькулятор_2
         {
             string number1;
             string number2;
-            string operation;
             bool succes1;
             bool succes2;
 
+            simpleCalculator(out number1, out number2, out succes1, out succes2);
+        }
+
+        private static void simpleCalculator(out string number1, out string number2, out bool succes1, out bool succes2)
+        {
+            bool value = false;
+            string operation;
             do
             {
                 Console.WriteLine("Ну давайте считать!\n" + "Введите два числа:");
@@ -23,6 +29,7 @@ namespace Калькулятор_2
 
                 if ((succes1 && succes2) == true)
                 {
+                    value = true;
                     Console.WriteLine("Ваши числа: " + a + " " + b);
                     Console.WriteLine("Выберите операцию: + , - , * , / ");
 
@@ -55,7 +62,7 @@ namespace Калькулятор_2
                     Console.WriteLine("Вы ввели не число!");
                 }
 
-            } while ((succes1 && succes2) == true);
+            } while ((succes1 && succes2) == true || value == false);
         }
 
         public static double Sum(double a, double b)

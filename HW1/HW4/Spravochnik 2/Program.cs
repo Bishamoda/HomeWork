@@ -9,9 +9,7 @@ namespace Spravochnik_2
 
         static void Main(string[] args)
         {
-          
-
-           string[] names = new string[7];
+            string[] names = new string[7];
             names[0] = "Mihail ";
             names[1] = "Alex ";
             names[2] = "Roman ";
@@ -32,10 +30,17 @@ namespace Spravochnik_2
             phoneNumber[3] = 89031233213;
             phoneNumber[4] = 89031233214;
 
+            writeTable(names, ages, phoneNumber);
 
+            addPersons(names, ages, phoneNumber);
+
+            viewTable(names, ages, phoneNumber);
+
+        }
+        private static void writeTable(string[] names, byte[] ages, double[] phoneNumber)
+        {
             Console.WriteLine("Сейчас таблица пользователей такая: \n" +
                 "| Имя |  Возраст |  Телефон |");
-
             for (int i = 0; i < 5; i++)
             {
                 for (int j = 0; j < 1; j++)
@@ -46,7 +51,9 @@ namespace Spravochnik_2
                 }
                 Console.WriteLine();
             }
-
+        }
+        private static void addPersons(string[] names, byte[] ages, double[] phoneNumber)
+        {
             Console.WriteLine("Добавьте двух новых пользователей:");
 
             for (int i = 5; i < names.Length; i++)
@@ -55,21 +62,6 @@ namespace Spravochnik_2
                 ages[i] = addAge();
                 phoneNumber[i] = addPhone();
             }
-
-            Console.WriteLine("Теперь таблица пользователей такая: \n" +
-               "Имя  Возраст  Телефон");
-
-            for (int i = 0; i < names.Length; i++)
-            {
-                for (int j = 0; j < 1; j++)
-                {
-                    Console.Write("{0} ", names[i]);
-                    Console.Write(" {0} ", ages[i]);
-                    Console.Write(" {0}", phoneNumber[i]);
-                }
-                Console.WriteLine();
-            }
-
         }
 
         public static string addName()
@@ -114,16 +106,12 @@ namespace Spravochnik_2
                 {
                     success = true;
                     return age;
-
                 }
                 else
                 {
-                    Console.WriteLine("Неверные данные\n" + "Попробуйте снова: ");
-                    
+                    Console.WriteLine("Неверные данные\n" + "Попробуйте снова: ");    
                 }
-
             }
-            
 
             return 0;
         }
@@ -143,17 +131,30 @@ namespace Spravochnik_2
                 {
                     success = true;
                     return phoneNumber;
-
                 }
                 else
                 {
                     Console.WriteLine("Неверные данные\n" + "Попробуйте снова: ");
-
                 }
-
             }
 
             return 0;
+        }
+        private static void viewTable(string[] names, byte[] ages, double[] phoneNumber)
+        {
+            Console.WriteLine("Теперь таблица пользователей такая: \n" +
+                  "Имя  Возраст  Телефон");
+
+            for (int i = 0; i < names.Length; i++)
+            {
+                for (int j = 0; j < 1; j++)
+                {
+                    Console.Write("{0} ", names[i]);
+                    Console.Write(" {0} ", ages[i]);
+                    Console.Write(" {0}", phoneNumber[i]);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
