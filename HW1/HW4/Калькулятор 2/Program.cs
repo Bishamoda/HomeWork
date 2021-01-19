@@ -88,7 +88,7 @@ namespace Калькулятор_2
             }
             else
             {
-                return 1;
+                return -1;
             }
     
         }
