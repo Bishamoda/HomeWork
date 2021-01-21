@@ -30,14 +30,14 @@ namespace Spravochnik_2
             phoneNumber[3] = 89031233213;
             phoneNumber[4] = 89031233214;
 
-            writeTable(names, ages, phoneNumber);
+            WriteTable(names, ages, phoneNumber);
 
-            addPersons(names, ages, phoneNumber);
+            AddPersons(names, ages, phoneNumber);
 
-            viewTable(names, ages, phoneNumber);
+            ViewTable(names, ages, phoneNumber);
 
         }
-        private static void writeTable(string[] names, byte[] ages, double[] phoneNumber)
+        private static void WriteTable(string[] names, byte[] ages, double[] phoneNumber)
         {
             Console.WriteLine("Сейчас таблица пользователей такая: \n" +
                 "| Имя |  Возраст |  Телефон |");
@@ -52,19 +52,19 @@ namespace Spravochnik_2
                 Console.WriteLine();
             }
         }
-        private static void addPersons(string[] names, byte[] ages, double[] phoneNumber)
+        private static void AddPersons(string[] names, byte[] ages, double[] phoneNumber)
         {
             Console.WriteLine("Добавьте двух новых пользователей:");
 
             for (int i = 5; i < names.Length; i++)
             {
-                names[i] = addName();
-                ages[i] = addAge();
-                phoneNumber[i] = addPhone();
+                names[i] = AddName();
+                ages[i] = AddAge();
+                phoneNumber[i] = AddPhone();
             }
         }
 
-        public static string addName()
+        public static string AddName()
         {
             bool success = false;
             string warning = "Ошибка!";
@@ -91,7 +91,7 @@ namespace Spravochnik_2
             return warning;
         }
 
-        public static byte addAge()
+        public static byte AddAge()
         {
             bool success = false;
 
@@ -116,7 +116,7 @@ namespace Spravochnik_2
             return 0;
         }
 
-        public static double addPhone()
+        public static double AddPhone()
         {
             bool success = false;
 
@@ -140,7 +140,7 @@ namespace Spravochnik_2
 
             return 0;
         }
-        private static void viewTable(string[] names, byte[] ages, double[] phoneNumber)
+        private static void ViewTable(string[] names, byte[] ages, double[] phoneNumber)
         {
             Console.WriteLine("Теперь таблица пользователей такая: \n" +
                   "Имя  Возраст  Телефон");

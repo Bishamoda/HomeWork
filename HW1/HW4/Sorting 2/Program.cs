@@ -15,16 +15,16 @@ namespace Sorting_2
             Random rnd = new Random();
 
             Console.WriteLine("Сейчас он выглядит так: ");
-            writeMass(k, mass, rnd);
+            WriteMass(k, mass, rnd);
  
             Console.WriteLine(Environment.NewLine + "Теперь он выглядит так: ");
-            sortingMass(mass);
+            SortingMass(mass);
 
-            viewMass(mass);
+            ViewMass(mass);
 
         }
 
-        private static void writeMass(int k, int[] mass, Random rnd)
+        private static void WriteMass(int k, int[] mass, Random rnd)
         {
             for (int i = 0; i < mass.Length; i++)
             {
@@ -33,7 +33,7 @@ namespace Sorting_2
             }
         }
 
-        public static void sortingMass(int[] mass)
+        public static void SortingMass(int[] mass)
         {
             int c;
             for (int i = 0; i < mass.Length - 1; i++)
@@ -52,7 +52,7 @@ namespace Sorting_2
 
         }
 
-        public static void viewMass(int[] mass)
+        public static void ViewMass(int[] mass)
         {
             for (int i = 0; i < mass.Length; i++)
             {

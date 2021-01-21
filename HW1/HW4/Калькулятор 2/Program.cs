@@ -6,18 +6,19 @@ namespace Калькулятор_2
     {
         static void Main(string[] args)
         {
+            SimpleCalculator();
+        }
+
+        private static void SimpleCalculator()
+        {
             string number1;
             string number2;
             bool succes1;
             bool succes2;
 
-            simpleCalculator(out number1, out number2, out succes1, out succes2);
-        }
-
-        private static void simpleCalculator(out string number1, out string number2, out bool succes1, out bool succes2)
-        {
             bool value = false;
             string operation;
+
             do
             {
                 Console.WriteLine("Ну давайте считать!\n" + "Введите два числа:");
