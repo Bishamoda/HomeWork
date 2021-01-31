@@ -61,7 +61,7 @@ namespace Lesson7_ToDoList
                         break;
 
                     case Operations.SET_ISSUE_AS_DONE:
-                        Console.WriteLine("выполнение задачи");
+                        SetDoneIssue();                      
                         break;
 
                     case Operations.EXIT:
@@ -80,6 +80,16 @@ namespace Lesson7_ToDoList
                     Console.Clear();
                 }
             }
+        }
+
+        private static void SetDoneIssue()
+        {
+            int selectedIssueNumber = GetIssueNumber();
+            int selectedIssueNumberDone = selectedIssueNumber - 1;
+            _issueList.SetDoneIssue(selectedIssueNumberDone);
+
+            Console.WriteLine("Задача выполнена, Вы молодец!");
+
         }
 
         private static void DeleteIssue()
@@ -147,7 +157,7 @@ namespace Lesson7_ToDoList
                 string userInput = Console.ReadLine();
                 isSuccess = int.TryParse(userInput, out selectedIssueNumber);
 
-                if (selectedIssueNumber < 1 || selectedIssueNumber > issues.Length)
+                if (selectedIssueNumber < 0 || selectedIssueNumber > issues.Length)
                 {
                     isSuccess = false;
                 }

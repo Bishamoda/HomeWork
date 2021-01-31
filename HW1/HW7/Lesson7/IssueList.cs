@@ -85,16 +85,35 @@ namespace Lesson7_ToDoList
 
         public void Delete(int selectedIssueNumber)
         {
-            throw new NotImplementedException();
-            //int issueIndexToRemove = selectedIssueNumber - 1;
+            //throw new NotImplementedException();
 
-            //_issues[issueIndexToRemove] = null;
-            //int issuesCount = Count();
+            int issueIndexToRemove = selectedIssueNumber - 1; 
 
-            //for (int i = issueIndexToRemove; i <= issuesCount - issueIndexToRemove; i++)
-            //{
-            //    _issues[i] = _issues[i + 1];
-            //}
+            _issues[issueIndexToRemove] = null;
+            int issuesCount = Count();
+
+            for (int i = issueIndexToRemove; i <= issuesCount - issueIndexToRemove; i++)
+            {
+                var temp = _issues[i];
+                _issues[i] = _issues[i + 1];
+                _issues[i + 1] = temp; ; 
+            }
+        }
+
+        public void SetDoneIssue(int selectedIssueNumberDone)
+        {
+            if (_issues[selectedIssueNumberDone].Status != Status.Done)
+            {
+                 Status statusDone = new Status();
+                 statusDone = Status.Done;
+                _issues[selectedIssueNumberDone].Status = statusDone;
+ 
+            }
+            else
+            {
+               
+                Console.WriteLine("Эта задача уже выполнена!");
+            }
         }
     }
 }
